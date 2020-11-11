@@ -18,12 +18,9 @@
     <modules>
         <module>account-service</module>
         <module>product-service</module>
-<!--        <module>poalim.common</module>-->
     </modules>
 
-
     <dependencies>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>

@@ -21,7 +21,7 @@ public class UserController {
     }
 
     @GetMapping(value = "getByAccount/{accountId}")
-    public List<User> createUser(@PathVariable Long accountId) {
+    public List<User> getByAccountId(@PathVariable Long accountId) {
         return userDao.getByAccountId(accountId);
     }
 
