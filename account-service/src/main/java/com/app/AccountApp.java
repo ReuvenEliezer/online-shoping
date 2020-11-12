@@ -7,11 +7,16 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-@SpringBootApplication
 @EnableJpaAuditing
-@ComponentScan(basePackages = {"com.controllers", "com.services"})
+@ComponentScan(basePackages = {
+        "com.controllers",
+        "com.services",
+        "com.config",
+        "com.services",
+})
 @EnableJpaRepositories(basePackages = {"com.repositories"})
 @EntityScan("com.entities")
+@SpringBootApplication
 public class AccountApp {
     public static void main(String[] args) {
         SpringApplication.run(AccountApp.class, args);

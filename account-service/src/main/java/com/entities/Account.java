@@ -25,6 +25,14 @@ public class Account {
         this.name = name;
     }
 
+    protected Account() {
+        //for JPA
+    }
+
+    public Account(String name) {
+        this.name = name;
+    }
+
     @Override
     public String toString() {
         return "Account{" +
