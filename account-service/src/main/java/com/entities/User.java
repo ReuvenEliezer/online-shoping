@@ -10,20 +10,32 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(nullable = false)
+    @Column
     private String name;
 
     @ManyToOne
     @JoinColumn(name = "account")
     private Account account;
 
+    @Column(nullable = false)
+    private String email;
+
     protected User() {
         // for JPA
     }
 
-    public User(String name, Account account) {
+    public User(String name, Account account, String email) {
         this.name = name;
         this.account = account;
+        this.email = email;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public Long getId() {

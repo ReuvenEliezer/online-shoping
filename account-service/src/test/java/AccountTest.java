@@ -28,20 +28,23 @@ public class AccountTest {
 
     @Test
     public void accountTest() {
-        Account account = new Account("account-name-1");
+        Account account = new Account("account-name-1", "account@gmail.com");
+
         Account accountSaved = restTemplate.postForObject(WsAddressConstants.accountFullUrl + "createAccount", account, Account.class);
         Assert.assertNotNull(accountSaved);
 
-        User user1 = new User("account-name-1", accountSaved);
+        User user1 = new User("account-name-1", accountSaved,"user1@gmail.com");
+
+
         User user1Saved = restTemplate.postForObject(WsAddressConstants.userFullUrl + "createUser", user1, User.class);
         Assert.assertNotNull(user1Saved);
 
-        User user2 = new User("account-name-2", accountSaved);
+        User user2 = new User("account-name-2", accountSaved,"user2@gmail.com");
         User user2Saved = restTemplate.postForObject(WsAddressConstants.userFullUrl + "createUser", user2, User.class);
         Assert.assertNotNull(user2Saved);
 
         List<User> usersByAccountId = userDao.getByAccountId(accountSaved.getId());
-        Assert.assertEquals(2,usersByAccountId.size());
+        Assert.assertEquals(2, usersByAccountId.size());
     }
 
 }

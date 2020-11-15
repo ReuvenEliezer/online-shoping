@@ -10,8 +10,20 @@ public class Account {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(nullable = false)
+    @Column
     private String name;
+
+    @Column(nullable = false)
+    private String email;
+
+    protected Account() {
+        //for JPA
+    }
+
+    public Account(String name, String email) {
+        this.name = name;
+        this.email = email;
+    }
 
     public Long getId() {
         return id;
@@ -25,12 +37,12 @@ public class Account {
         this.name = name;
     }
 
-    protected Account() {
-        //for JPA
+    public String getEmail() {
+        return email;
     }
 
-    public Account(String name) {
-        this.name = name;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     @Override
