@@ -27,7 +27,6 @@
         <module>product-service</module>
         <module>card-service</module>
         <module>order-service</module>
-        <module>common</module>
     </modules>
 
     <dependencies>

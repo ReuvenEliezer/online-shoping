@@ -14,10 +14,14 @@ public class Product {
     private String name;
 
     @Column(nullable = false)
-    private String price;
+    private Double price;
 
     protected Product() {
         // for JPA
     }
 
+    public Product(String name, Double price) {
+        this.name = name;
+        this.price = price;
+    }
 }

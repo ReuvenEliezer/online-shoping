@@ -10,7 +10,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableJpaAuditing
 @ComponentScan(basePackages = {
         "com.controllers",
-        "com.services",
         "com.config",
         "com.services",
 })

@@ -2,17 +2,16 @@ package com.entities;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
-@Table(name = "order")
+@Table(name = "orders")
 public class Order {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    @Column(nullable = false)
-    private Long productId;
 
     @Column
     private LocalDateTime orderDateTime;
@@ -20,18 +19,40 @@ public class Order {
     @Column(name = "StatusEnumId")
     private Integer statusEnumId;
 
-    @Column
+    @Column(nullable = false, name = "user_id")
     private Long userId;
+
+    @ElementCollection(targetClass = Long.class, fetch = FetchType.EAGER)
+    @CollectionTable(name = "order_products", joinColumns = @JoinColumn(name = "order_id"))
+    @Column(name = "productId")
+    private Set<Long> productIds = new HashSet<>();
 
     protected Order() {
     }
 
-    public Long getProductId() {
-        return productId;
+    public Order(Long userId) {
+        this.userId = userId;
+        this.setOrderDateTime(LocalDateTime.now());
     }
 
-    public void setProductId(Long productId) {
-        this.productId = productId;
+    public Long getId() {
+        return id;
+    }
+
+    public Long getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Long userId) {
+        this.userId = userId;
+    }
+
+    public Set<Long> getProductIds() {
+        return productIds;
+    }
+
+    public void setProductIds(Set<Long> productIds) {
+        this.productIds = productIds;
     }
 
     public LocalDateTime getOrderDateTime() {
@@ -50,5 +71,14 @@ public class Order {
         this.statusEnumId = orderStatusEnum.getValue();
     }
 
-
+    @Override
+    public String toString() {
+        return "Order{" +
+                "id=" + id +
+                ", orderDateTime=" + orderDateTime +
+                ", statusEnumId=" + statusEnumId +
+                ", userId=" + userId +
+                ", productIds=" + productIds +
+                '}';
+    }
 }
