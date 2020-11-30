@@ -13,7 +13,7 @@ public class Account {
     @Column
     private String name;
 
-    @Column(nullable = false)
+    @Column(unique = true, nullable = false)
     private String email;
 
     protected Account() {

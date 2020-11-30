@@ -1,6 +1,9 @@
 package com.entities;
 
+import com.sun.istack.NotNull;
+
 import javax.persistence.*;
+import javax.validation.constraints.Email;
 
 @Entity
 @Table(name = "user")
@@ -17,7 +20,9 @@ public class User {
     @JoinColumn(name = "account")
     private Account account;
 
-    @Column(nullable = false)
+    @NotNull
+    @Email
+    @Column(unique = true)
     private String email;
 
     protected User() {

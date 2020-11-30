@@ -28,7 +28,7 @@ public class AccountTest {
 
     @Test
     public void accountTest() {
-        Account account = new Account("account-name-1", "account@gmail.com");
+        Account account = new Account("account-name-1", "account@gmailcom");
 
         Account accountSaved = restTemplate.postForObject(WsAddressConstants.accountFullUrl + "createAccount", account, Account.class);
         Assert.assertNotNull(accountSaved);
