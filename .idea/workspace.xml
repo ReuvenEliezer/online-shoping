@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abb6ae45-f04f-47e3-ae1c-3f9fd83100c8" name="Default Changelist" comment="add swagger config">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_validator_commons_validator_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-service/src/main/java/com/config/CommonsEmailValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-service/src/main/java/com/config/Email.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/account-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/account-service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/controllers/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/com/controllers/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/entities/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/com/entities/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/com/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/test/java/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/test/java/AccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-service/card-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/card-service/card-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-shopping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/online-shopping.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/order-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/product-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/product-service.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -391,6 +373,10 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1380" y="255" key="IDE.errors.dialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605266270681" />
+    <state x="715" y="222" key="RollbackChangesDialog" timestamp="1606815296262">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="715" y="222" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606815296262" />
     <state x="-1480" y="94" key="SettingsEditor" timestamp="1605701178361">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>

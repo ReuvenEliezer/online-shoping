@@ -19,10 +19,11 @@ public class AccountController {
 
     @PostMapping(value = "createAccount")
     public Account createAccount(@RequestBody Account account) {
-        if (validateEmail(account.getEmail()))
-            return accountDao.save(account);
-        //TODO add exception handling
-        return null;
+        if (!validateEmail(account.getEmail())) {
+            //TODO add exception handling
+            throw new IllegalArgumentException(String.format(" email {} not valid", account.getEmail()));
+        }
+        return accountDao.save(account);
 //      return  ResponseEntity.status(HttpStatus.BAD_REQUEST);//.body("Request Have Invalid Parameters");
     }
 
