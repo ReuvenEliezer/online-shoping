@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abb6ae45-f04f-47e3-ae1c-3f9fd83100c8" name="Default Changelist" comment="add swagger config">
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/controllers/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/com/controllers/AccountController.java" afterDir="false" />
-    </list>
+    <list default="true" id="abb6ae45-f04f-47e3-ae1c-3f9fd83100c8" name="Default Changelist" comment="add swagger config" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -238,7 +236,13 @@
       <option name="presentableId" value="LOCAL‎00004" />
       <updated>1605554593817</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL‎00005" summary="add swagger config">
+      <created>1606823646006</created>
+      <option name="number" value="LOCAL‎00005" />
+      <option name="presentableId" value="LOCAL‎00005" />
+      <updated>1606823646006</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,20 +295,21 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1205" y="223" key="#xdebugger.evaluate/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605116342017" />
-    <state x="-1387" y="89" key="CommitChangelistDialog2" timestamp="1605711687613">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="533" y="89" key="CommitChangelistDialog2" timestamp="1606823807144">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1387" y="89" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605711687613" />
+    <state x="533" y="89" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606823807144" />
     <state width="464" height="466" key="DebuggerActiveHint" timestamp="1606586190827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="464" height="466" key="DebuggerActiveHint/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605530001211" />
     <state width="464" height="466" key="DebuggerActiveHint/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606586190827" />
-    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1606754093386">
+    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1606823640927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1736" y="86" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605711685335" />
-    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606754093386" />
+    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606823640927" />
     <state x="-1095" y="418" key="Github.ShareDialog" timestamp="1605115609759">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -381,10 +386,11 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1480" y="94" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605701178361" />
-    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605711676906">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606823812838">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605711676906" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606823812838" />
     <state x="-1145" y="298" key="chooseDestDirectoryDialog" timestamp="1605106705867">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
