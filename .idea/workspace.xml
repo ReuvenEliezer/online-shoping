@@ -3,8 +3,26 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="abb6ae45-f04f-47e3-ae1c-3f9fd83100c8" name="Default Changelist" comment="add swagger config" />
+    <list default="true" id="abb6ae45-f04f-47e3-ae1c-3f9fd83100c8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/app/AccountApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/com/app/AccountApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/controllers/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/com/controllers/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/src/test/java/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/test/java/AccountTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,10 +37,16 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <branch-grouping />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/order-service/pom.xml" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="account-service/invalid/JPA" />
+    </ignored-facets>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -53,7 +77,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/product-service/src/main/java/com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -94,10 +118,21 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AccountTest.accountTest">
-    <configuration name="OrderApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.app.OrderApp" />
-      <module name="order-service" />
+  <component name="RunManager" selected="Application.AccountApp">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.app.AccountApp" />
+      <module name="account-service" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.app.*" />
@@ -121,21 +156,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AccountTest.accountInValidEmailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="account-service" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AccountTest" />
+      <option name="METHOD_NAME" value="accountInValidEmailTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AccountTest.accountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="account-service" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AccountTest" />
       <option name="METHOD_NAME" value="accountTest" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="order-service" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OrderTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -173,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AccountApp" />
+        <item itemvalue="JUnit.AccountTest.accountInValidEmailTest" />
         <item itemvalue="JUnit.AccountTest.accountTest" />
         <item itemvalue="JUnit.OrderTest.orderTest" />
         <item itemvalue="Application.ProductApp" />
-        <item itemvalue="JUnit.OrderTest" />
-        <item itemvalue="Application.OrderApp" />
       </list>
     </recent_temporary>
   </component>
@@ -242,11 +278,34 @@
       <option name="presentableId" value="LOCAL‎00005" />
       <updated>1606823646006</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL‎00006" summary="add swagger config">
+      <created>1606823966406</created>
+      <option name="number" value="LOCAL‎00006" />
+      <option name="presentableId" value="LOCAL‎00006" />
+      <updated>1606823966406</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -261,11 +320,11 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1061" y="411" key="#Assign_Data_Sources/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605108107307" />
-    <state x="440" y="94" key="#Project_Structure" timestamp="1606206864775">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1606905351795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1480" y="94" key="#Project_Structure/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605506370014" />
-    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606206864775" />
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606905351795" />
     <state x="-1230" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1605110552938">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -295,11 +354,11 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1205" y="223" key="#xdebugger.evaluate/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605116342017" />
-    <state x="533" y="89" key="CommitChangelistDialog2" timestamp="1606823807144">
+    <state x="533" y="89" key="CommitChangelistDialog2" timestamp="1606823965950">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1387" y="89" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605711687613" />
-    <state x="533" y="89" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606823807144" />
+    <state x="533" y="89" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606823965950" />
     <state width="464" height="466" key="DebuggerActiveHint" timestamp="1606586190827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -318,46 +377,46 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1281" y="218" key="Github.UntrackedFilesDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605115617073" />
-    <state width="1877" height="338" key="GridCell.Tab.0.bottom" timestamp="1606588054665">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1606905501437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1520" height="360" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605554532267" />
-    <state width="1877" height="338" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606588054665" />
-    <state width="1877" height="338" key="GridCell.Tab.0.center" timestamp="1606588054665">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606905501437" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1606905501437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1520" height="360" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605554532267" />
-    <state width="1877" height="338" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606588054665" />
-    <state width="1877" height="338" key="GridCell.Tab.0.left" timestamp="1606588054665">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606905501437" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1606905501437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1520" height="360" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605554532267" />
-    <state width="1877" height="338" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606588054665" />
-    <state width="1877" height="338" key="GridCell.Tab.0.right" timestamp="1606588054665">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606905501437" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1606905501437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1520" height="360" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605554532267" />
-    <state width="1877" height="338" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606588054665" />
-    <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1606588062697">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606905501437" />
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1606843412349">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1520" height="360" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605554532267" />
-    <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606588062697" />
-    <state width="1877" height="338" key="GridCell.Tab.1.center" timestamp="1606588062696">
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606843412349" />
+    <state width="1877" height="338" key="GridCell.Tab.1.center" timestamp="1606843412349">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1520" height="360" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605554532267" />
-    <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606588062696" />
-    <state width="1877" height="338" key="GridCell.Tab.1.left" timestamp="1606588062696">
+    <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606843412349" />
+    <state width="1877" height="338" key="GridCell.Tab.1.left" timestamp="1606843412349">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1520" height="360" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605554532267" />
-    <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606588062696" />
-    <state width="1877" height="338" key="GridCell.Tab.1.right" timestamp="1606588062696">
+    <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606843412349" />
+    <state width="1877" height="338" key="GridCell.Tab.1.right" timestamp="1606843412349">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1520" height="360" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605554532267" />
-    <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606588062696" />
+    <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606843412349" />
     <state width="1520" height="360" key="GridCell.Tab.2.bottom" timestamp="1605554532267">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -386,11 +445,11 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1480" y="94" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605701178361" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606823812838">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606823968028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605711676906" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606823812838" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606823968028" />
     <state x="-1145" y="298" key="chooseDestDirectoryDialog" timestamp="1605106705867">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>

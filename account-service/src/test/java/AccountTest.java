@@ -28,7 +28,7 @@ public class AccountTest {
 
     @Test
     public void accountTest() {
-        Account account = new Account("account-name-1", "account@gmailcom");
+        Account account = new Account("account-name-1", "account@gmail.com");
 
         Account accountSaved = restTemplate.postForObject(WsAddressConstants.accountFullUrl + "createAccount", account, Account.class);
         Assert.assertNotNull(accountSaved);
@@ -47,4 +47,9 @@ public class AccountTest {
         Assert.assertEquals(2, usersByAccountId.size());
     }
 
+    @Test (expected = IllegalArgumentException.class)
+    public void accountInValidEmailTest() {
+        Account account = new Account("account-name-1", "accountgmail.com");
+        restTemplate.postForObject(WsAddressConstants.accountFullUrl + "createAccount", account, Account.class);
+    }
 }

@@ -21,7 +21,7 @@ public class AccountController {
     public Account createAccount(@RequestBody Account account) {
         if (!validateEmail(account.getEmail())) {
             //TODO add exception handling
-            throw new IllegalArgumentException(String.format(" email {} not valid", account.getEmail()));
+            throw new IllegalArgumentException(String.format("email %s not valid", account.getEmail()));
         }
         return accountDao.save(account);
 //      return  ResponseEntity.status(HttpStatus.BAD_REQUEST);//.body("Request Have Invalid Parameters");
