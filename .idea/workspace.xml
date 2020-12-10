@@ -8,12 +8,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abb6ae45-f04f-47e3-ae1c-3f9fd83100c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/account-service/src/main/java/com/exception/ErrorMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-service/src/main/java/com/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-service/src/main/java/com/services/ControllerExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/test/java/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/test/java/AccountTest.java" afterDir="false" />
+    <list default="true" id="abb6ae45-f04f-47e3-ae1c-3f9fd83100c8" name="Default Changelist" comment="add exception handling">
+      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/config/CommonsEmailValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/com/usils/email/CommonsEmailValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/config/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/com/usils/email/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/controllers/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/com/controllers/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/services/ControllerExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/com/exception/ControllerExceptionHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,7 +275,13 @@
       <option name="presentableId" value="LOCAL‎00006" />
       <updated>1606823966406</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL‎00007" summary="add exception handling">
+      <created>1607591541074</created>
+      <option name="number" value="LOCAL‎00007" />
+      <option name="presentableId" value="LOCAL‎00007" />
+      <updated>1607591541074</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +310,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="fix query" />
     <MESSAGE value="add swagger config" />
-    <option name="LAST_COMMIT_MESSAGE" value="add swagger config" />
+    <MESSAGE value="add exception handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="add exception handling" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -332,17 +338,17 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/account-service/src/main/java/com/services/ControllerExceptionHandler.java</url>
+          <url>file://$PROJECT_DIR$/account-service/src/main/java/com/exception/ControllerExceptionHandler.java</url>
           <line>16</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/account-service/src/main/java/com/services/ControllerExceptionHandler.java</url>
+          <url>file://$PROJECT_DIR$/account-service/src/main/java/com/exception/ControllerExceptionHandler.java</url>
           <line>27</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/account-service/src/main/java/com/config/CommonsEmailValidator.java</url>
+          <url>file://$PROJECT_DIR$/account-service/src/main/java/com/usils/email/CommonsEmailValidator.java</url>
           <line>22</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>

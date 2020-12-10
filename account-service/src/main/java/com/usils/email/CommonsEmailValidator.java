@@ -1,4 +1,4 @@
-package com.config;
+package com.usils.email;
 
 
 import org.apache.commons.validator.routines.EmailValidator;

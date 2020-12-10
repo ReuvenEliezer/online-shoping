@@ -1,4 +1,4 @@
-package com.services;
+package com.controllers;
 
 import com.exception.ErrorMessage;
 import com.exception.ResourceNotFoundException;

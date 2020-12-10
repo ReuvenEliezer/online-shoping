@@ -1,4 +1,4 @@
-package com.config;
+package com.usils.email;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;

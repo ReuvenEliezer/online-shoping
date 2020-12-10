@@ -1,9 +1,9 @@
 package com.controllers;
 
-import com.config.CommonsEmailValidator;
 import com.entities.Account;
 import com.repositories.AccountDao;
 import com.usils.WsAddressConstants;
+import com.usils.email.CommonsEmailValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
